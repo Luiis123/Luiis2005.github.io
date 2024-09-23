@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 2</title>
+    <script src="./funciones/scriptejemplo2.js" defer></script>
+</head>
+<body onload="aleatorios()">
+    <p> <a href="index.html">Volver al menu</a></p>
+    <h1>Arreglos 2</h1>
+    
+    <p>Capture un arreglo de 10 elementos de tipo entero, imprima el arreglo de forma vertical y horizontal </p>
+    imprima el arreglo de forma ascendente y descendente, encuentre el elemento menor, el mayor, la suma, el promedio o media, 
+    la mediana y la moda. </p>
+    <p style="display: inline;" id="contador">elemento[0]</p> 
+    <input type="number" id="elemento" >
+    <input type="button" value="capturar" id="capturarBoton" onclick="capturar();">
+    <input type="button" value="reiniciar" id="reinciarboton" onclick="reinciar()">
+    <input type="button" id="reiniciarr" value="dar resultado" onclick="calcular()" disabled>
+    <p id="resultados">resultados</p>
+    <br><br><br><table border="3" style="border-collapse: collapse;">
+        <tr id="renglonindice"></tr>
+        <tr id="renglondato"></tr>
+    </table>
+    <br><table id="tablavertical" border="3" style="border-collapse: collapse;"></table>
+    <tr id=""></tr>
+    <tr></tr>
+</body>
+</html>
