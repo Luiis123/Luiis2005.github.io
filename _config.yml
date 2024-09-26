@@ -2,7 +2,7 @@
 title: "Mi sitio en GitHub Pages"
 description: "Un sitio web estático utilizando GitHub Pages y Jekyll."
 baseurl: "" # No cambiar si es la raíz del repositorio
-url: "https://miusuario.github.io" # Cambiar por tu URL
+url: "https://luiis2005.github.io/" # Cambiar por tu URL
 
 # Opciones de permalink (para quitar .html)
 permalink: /:basename/
