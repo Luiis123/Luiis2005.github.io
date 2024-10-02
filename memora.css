@@ -1,0 +1,16 @@
+.imagen {
+    /*El width tambien se puede poner con un numero %*/
+    width: 120px;
+    height: 150px;
+    }
+    table{
+    background-image: url("./img/messi1.jpeg");
+    display: inline-table;
+    }
+    h1{
+    display: inline;
+    }
+    input[type=button] {
+    font-size: larger;
+    background-color: bisque;
+    }
