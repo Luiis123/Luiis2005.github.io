@@ -1,0 +1,56 @@
+    /* Estilos básicos */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f0f5;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+    }
+
+    h1 {
+        color: #4A4A90;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2em;
+    }
+
+    /* Contenedor para centrar */
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Estilo para el párrafo principal */
+    .content p {
+        font-size: 1.1rem;
+        text-align: center;
+        line-height: 1.6;
+        max-width: 800px;
+    }
+
+    /* Estilo para los botones */
+    .content a {
+        display: inline-block;
+        margin: 8px;
+        padding: 10px 20px;
+        background-color: #6A0DAD;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: background-color 0.3s, transform 0.3s;
+        text-align: center;
+        width: 200px; /* Ajusta el ancho de los botones para que sean uniformes */
+    }
+
+    .content a:hover {
+        background-color: #5e0e91;
+        transform: translateY(-2px);
+    }
+
+    .content a:active {
+        background-color: #4c0c7d;
+        transform: translateY(1px);
+    }

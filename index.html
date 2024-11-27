@@ -2,35 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unidad didactica 1 Introduccion a los algoritmos y estructuras de datos</title>
+    <title>Fundamentos de computacion III</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://kit.fontawesome.com/7c17e3fdd4.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <h1>Unidad didactica 1 Introduccion a los algoritmos y estructuras de datos</h1>
-    Definicion de algoritmo: <br> Serie de pasos o instrucciones para completar una tarea
-    Las estructurasd de datos que veremos en el semetre son:<br>
-    <style>
+<body id="body">
+    <div class="menu__side right" id="menu_side_right">
+        <!-- Este es solo un elemento decorativo -->
+    </div>
+    
+    
+    <header>
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
+        </div>
+        <div class="icon__notification" id="notification_icon">
+            <i class="fas fa-bell"></i>
+        </div>
         
-    </style>
-    <p> <a href="algoritmo1.html">Ejemplo 1</a>  </p>
-    <p> <a href="algoritmo_2.html">Ejemplo 2</a> </p>
-    <p> <a href="algoritmo3.html">Ejemplo 3</a> </p>
-    <p> <a href="algoritmo4.html">Ejemplo 4</a> </p>
-    <p> <a href="algoritmo5.html">Ejemplo 5</a> </p>
-    <p>Definicion de arreglo <br> Los arreglos en programacion son estructuras de datos que permiten almacenamiento un conjunto de elementos relacionados bajo un nombre </p> 
-    1. Arreglo <br>
-    <p> <a href="algoritmo6.html">Ejemplo 1</a> </p>
-    <p> <a href="ejemplo2.html">Ejemplo 2</a> </p>
-    <p> <a href="ejemplo3.html">Ejemplo 3</a> </p>
-    2. Matriz<br>
-    <p> <a href="memoram.html">Juego de memoria</a> </p>
-    3. Lista<br>
-    <p> <a href="tictactoe.html">Juego del gato</a></p>
-    4. Pila<br>
-    <p> <a href="pila.html">Pilaaa</a></p>
-    5. Cola<br>
-    <p> <a href="postfijo.html">Postfijo</a></p>
-    6. Arbol<br>
-    7. Grafo<br>
+        <!-- Hoja de notificaciones -->
+        <div class="notification_sheet" id="notification_sheet">
+            <h4>Notificaciones</h4>
+            <ul>
+                <li>Nueva landing page❗</li>
+            </ul>
+        </div>
+    </header>
+        
+    
+
+    <div class="menu__side" id="menu_side">
+
+        <div class="name__page">
+            <i class="fas fa-home"></i>
+            <h4>Bienvenido</h4>
+        </div>
+
+        <div class="options__menu">	
+
+            <a href="index1.html" class="selected">
+                <div class="option">
+                    <i class="fas fa-gear"></i>
+                    <h4>Proyectos</h4>
+                </div>
+            </a>
+
+            <a href="comentarios.html" class="selected">
+                <div class="option">
+                    <i class="fas fa-message"></i>
+                    <h4>Comentarios</h4>
+                </div>
+            </a>
+
+            <a href="juegos.html" class="selected">
+                <div class="option">
+                    <i class="fas fa-gamepad"></i>
+                    <h4>Juegos</h4>
+                </div>
+            </a>
+
+            <a href="infoo.html" class="selected">
+                <div class="option">
+                    <i class="fas fa-exclamation"></i>
+                    <h4>Acerca de la pagina</h4>
+                </div>
+            </a>
+
+            
+        </div>
+
+    </div>
+
+    <main>
+        <h1>Unidad didactica 1 Introduccion a los algoritmos y estructuras de datos!</h1><br>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="img/cola.png" alt="Imagen 1" class="active">
+                <img src="img/memorama.png" alt="Imagen 2">
+                <img src="img/fibona.png" alt="Imagen 3">
+                <img src="img/otro.png" alt="Imagen 4">
+                <img src="img/cubo.png" alt="Imagen 4">
+            </div>
+            <div class="carousel-dots">
+                <span class="dot active" onclick="showSlide(0)"></span>
+                <span class="dot" onclick="showSlide(1)"></span>
+                <span class="dot" onclick="showSlide(2)"></span>
+                <span class="dot" onclick="showSlide(3)"></span>
+                <span class="dot" onclick="showSlide(4)"></span>
+            </div>
+        </div>
+        
+        
+    </main>
+
+    <script src="index.js"></script>
+
 </body>
 </html>
